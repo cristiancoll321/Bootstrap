@@ -1,0 +1,38 @@
+/* Estilos generales para el fondo negro y el texto blanco */
+body {
+  background-color: #000000; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
+}
+
+/* Estilos para los placeholders de las imágenes */
+.image-placeholder {
+  background-color: #444444; /* Fondo gris oscuro para contrastar con el fondo negro */
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: #cccccc; /* Texto gris claro para contrastar con el fondo del placeholder */
+  border: 1px dashed #888888; /* Borde gris claro */
+  margin-bottom: 20px;
+}
+
+/* Estilos para la navbar */
+.custom-navbar {
+  background-color: #343a40; /* Cambia el color de fondo */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #ffffff; /* Cambia el color del texto */
+}
+
+.custom-navbar .nav-link.active {
+  color: #f8f9fa; /* Cambia el color del enlace activo */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #adb5bd; /* Cambia el color del enlace al pasar el cursor por encima */
+}
+
+.custom-navbar .nav-link.disabled {
+  color: #6c757d; /* Cambia el color del enlace deshabilitado */
+}
