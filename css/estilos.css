@@ -36,3 +36,17 @@ body {
 .custom-navbar .nav-link.disabled {
   color: #6c757d; /* Cambia el color del enlace deshabilitado */
 }
+.custom-footer {
+  background-color: #343a40; /* Fondo del footer */
+  color: #ffffff; /* Texto del footer */
+  padding: 20px;
+}
+
+.custom-footer a {
+  color: #ffffff; /* Color de los enlaces en el footer */
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  color: #adb5bd; /* Color de los enlaces al pasar el cursor por encima */
+}
